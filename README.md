@@ -14,6 +14,6 @@ flutter run
 
 
 
-## Credit goes to Amin Samad creator of flutter_kurdish_localization package.
+### Credit goes to Amin Samad creator of flutter_kurdish_localization package.
 
 https://github.com/aminsamad/flutter_kurdish_localization
