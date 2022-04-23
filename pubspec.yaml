@@ -1,0 +1,35 @@
+name: flutter_kurdish_localization
+description: Demonstrates how to use the flutter_kurdish_localization plugin.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.16.1
+  shared_preferences: ^0.5.12+4
+  flutter_feather_icons: ^1.0.3
+  top_snackbar_flutter: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - lib/lang/en.json
+    - lib/lang/ku.json
+    - lib/lang/ar.json
+    - assets/images/
+    - assets/flags/
+
+  uses-material-design: true
